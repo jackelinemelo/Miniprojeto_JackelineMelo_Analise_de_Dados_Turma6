@@ -19,39 +19,32 @@ dataset é usado e quais análises/gráficos são gerados.)
   pip install pandas matplotlib numpy
   ```
 
-## Como executar
+🛠️ Tecnologias utilizadas
+Python 3
+pandas — manipulação e limpeza de dados
+(inclua aqui outras bibliotecas usadas, como numpy, matplotlib ou seaborn, se aplicável)
+📁 Estrutura do projeto
+├── Miniprojeto_JackelineMelo_Analise_de_Dados_T6.py   # Script principal com a análise
+├── dados/                                             # (se houver) base de dados utilizada
+└── README.md                                          # Este arquivo
 
-### Opção 1 - VSCode
-1. Abra a pasta do projeto no VSCode.
-2. Abra o arquivo `Miniprojeto_JackelineMelo_Analise_de_Dados_T6.py`.
-3. Clique em **Run** (ícone de play) ou use o terminal integrado:
-   ```
+💡 Ajuste esta seção conforme a estrutura real de pastas do seu repositório.
+
+▶️ Como executar
+Clone este repositório ou baixe os arquivos.
+Instale as dependências necessárias:
+bash
+   pip install pandas
+Execute o script principal:
+bash
    python Miniprojeto_JackelineMelo_Analise_de_Dados_T6.py
-   ```
+📈 Principais resultados / insights
 
-### Opção 2 - Google Colab
-1. Faça upload do arquivo `.py` (ou converta para `.ipynb`, se preferir notebook).
-2. Se for `.ipynb`: vá em **Ambiente de execução > Executar tudo**.
-3. Se for `.py`: cole o conteúdo em uma célula do Colab e execute com `Shift + Enter`.
+(preencha esta seção com um resumo dos achados mais relevantes da análise, por exemplo:)
 
-### Opção 3 - Terminal
-1. Abra o terminal na pasta do projeto.
-2. Execute:
-   ```
-   python Miniprojeto_JackelineMelo_Analise_de_Dados_T6.py
-   ```
+Cliente(s) com maior volume de compras;
+Categoria(s) de produto com maior faturamento;
+Sazonalidade ou tendência de vendas ao longo do período analisado.
+📄 Licença
 
-## Estrutura esperada de pastas
-
-```
-📁 projeto/
- ┣ 📄 Miniprojeto_JackelineMelo_Analise_de_Dados_T6.py
- ┣ 📄 README_JackelineMelo_T6.md
- ┗ 📄 (dataset, se houver, ex.: dados.csv)
-```
-
-## Observações
-
-- Caso o script utilize um arquivo de dados externo (CSV, Excel, etc.),
-  certifique-se de que ele esteja na mesma pasta do script antes de executar.
-- Em caso de erro de biblioteca faltando, instale com `pip install nome_da_biblioteca`.
+Projeto acadêmico, desenvolvido para fins educacionais na Turma T6.
